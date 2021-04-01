@@ -33,6 +33,7 @@ jobs:
     - name: Build the book
       run: |
         cd my_book |
+        cd my_book |
         jupyter-book build .
 
     # Push the book's HTML to github-pages
